@@ -1,6 +1,7 @@
 import express,{Application} from 'express';
 import indexRoutes from './routes/indexRoutes';
 import gameRoutes from './routes/gamesRoutes';
+import userRoutes from "./routes/userRoutes";
 import morgan from 'morgan';
 import cors from 'cors';
 class Server {
@@ -36,6 +37,7 @@ class Server {
     routes():void{
         this.app.use("/api",indexRoutes);
         this.app.use("/api/games",gameRoutes);
+        this.app.use("/api/user",userRoutes);
     }
 
     start():void{

@@ -1,0 +1,61 @@
+## Juegos
+
+# Descripcion 
+
+Crear una una pagina web que nos permita almacenar una lista de nuestros 
+juegos preferidos.
+
+# LandingPage
+
+La pagina tiene que mostrarnos como pagina principal un landingPage
+que tendra como objetivo mostrarnos una pequeña descripcion de la pagina y tratara
+de que nos registremos en la pagina o en su caso de que iniciemos sesion.
+
+# About
+
+Tendremos una pagina de colaboradores donde mostraremos un perfil de las personas que
+desarrolaron la pagina o en su caso del admintrador(s) de la pagina y una descripcion
+de lo que pretendemos conseguir con el desarrollo de esta pagina.
+
+# Contact
+
+Tambien sera necesario un apartado donde las personas podran mandar un mensaje 
+al administrador y este tendra que llegar a su correo, para poder hacer esto
+sera necesario que el usuario que trate de contactar este registrado como,
+usuario de la pagina, caso contrario tendra que redireccionar a la pagina registro
+
+# Sign Up
+
+La pagina de registro nos mostrara un formulario donde los usuarios podran poner los 
+datos minimos para registrarse en la pagina, no sera nada demasiado pesado su correo,
+nombre,apellido y una contraseña.
+
+Una vez terminado el registro y si no hubo incidencias tendra que redirigirnos a
+la pagina donde se mostrara la lista de juegos.
+
+# Sign In
+
+Sera la pagina de inicio de session donde simplemente nos mostrara un formulario 
+donde poner el correo y la contraseña y si el usuario esta registrado nos mandara
+a la pagina de lista de juegos, caso contrario nos mostrana una validacion de usario no 
+encontrado.
+
+# Game list
+
+Sera una pagina donde se mostrara la lista de juegos del usuario en un formato carrusel
+cada juego se podra editar o eliminar
+
+# Add Game
+
+Sera un apartado donde se nos mostrara un formulario donde podremos añadir un juego a
+nuestra lista con los datos necesarios para registrar un juego.
+
+## Elemetos
+
+# A Game
+
+Un juego estara compuesto por un titulo, una descripcion, una imagen(url).
+
+# A User
+
+Un usuario tendra un Id,nombre,apellido,correo,contraseña.
